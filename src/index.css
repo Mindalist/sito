@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+:root {
+  --navbar-height: 4.5rem;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --navbar-height: 5rem;
+  }
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+  overscroll-behavior-x: none;
+}
+
+/* GSAP ScrollTrigger optimizations */
+body,
+#root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
+  overscroll-behavior-x: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.app-layout {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  min-height: 100dvh;
+  overflow-x: clip;
+  background-color: #020212;
+}
+
+.app-main {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  overflow-x: clip;
+  padding-top: var(--navbar-height);
+}
+
+/* Smooth scroll wrapper styles */
+#smooth-wrapper {
+  overflow: hidden;
+}
+
+#smooth-content {
+  will-change: transform;
+}
+
+/* Material Symbols Icons Sizing */
+.material-icon-large {
+  font-size: 120px;
+}
+
+@media (min-width: 640px) {
+  .material-icon-large {
+    font-size: 140px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .material-icon-large {
+    font-size: 160px;
+  }
+}
