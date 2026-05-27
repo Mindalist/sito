@@ -259,21 +259,13 @@ export function MindalistFooter() {
                 <p className="mt-2">
                   {t("footer.email")}{" "}
                   <a
-                    href="mailto:manfro.andrea@gmail.com"
+                    href="mailto:info@mindalist.it"
                     className="hover:text-white transition"
                   >
-                    manfro.andrea@gmail.com
+                   info@mindalist.it
                   </a>
                 </p>
-                <p>
-                  {t("footer.phone")}{" "}
-                  <a
-                    href="tel:+393519977028"
-                    className="hover:text-white transition"
-                  >
-                    +39 351 997 7028
-                  </a>
-                </p>
+
               </address>
             </div>
           </div>
