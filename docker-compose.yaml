@@ -1,0 +1,36 @@
+services:
+  site:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VITE_EMAILJS_SERVICE_ID: ${VITE_EMAILJS_SERVICE_ID:-}
+        VITE_EMAILJS_TEMPLATE_ID: ${VITE_EMAILJS_TEMPLATE_ID:-}
+        VITE_EMAILJS_PUBLIC_KEY: ${VITE_EMAILJS_PUBLIC_KEY:-}
+        VITE_RECAPTCHA_SITE_KEY: ${VITE_RECAPTCHA_SITE_KEY:-}
+    container_name: mindalist-site
+    restart: unless-stopped
+    expose:
+      - "80"
+    networks:
+      - web
+
+  nginx:
+    image: jc21/nginx-proxy-manager:2
+    container_name: mindalist-npm
+    restart: unless-stopped
+    depends_on:
+      - site
+    ports:
+      - "80:80"
+      - "443:443"
+      - "81:81"
+    volumes:
+      - ./npm/data:/data
+      - ./npm/letsencrypt:/etc/letsencrypt
+    networks:
+      - web
+
+networks:
+  web:
+    driver: bridge

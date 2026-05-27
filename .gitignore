@@ -29,3 +29,14 @@ dist-ssr
 *.JPG
 *.PNG
 *.JPEG
+
+# Docker and deployment local secrets/artifacts
+.env
+nginx/certs/*
+!nginx/certs/.gitkeep
+nginx/www/*
+!nginx/www/.gitkeep
+npm/data/*
+!npm/data/.gitkeep
+npm/letsencrypt/*
+!npm/letsencrypt/.gitkeep

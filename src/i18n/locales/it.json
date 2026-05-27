@@ -31,8 +31,8 @@
   },
   "about": {
     "title": "CHI SONO",
-    "intro": "Ciao! Sono Andrea, in arte Mindalist, sono un drone videomaker ed editor toscano. Andrea, in arte Mindalist, sono un drone videomaker ed editor professionista con la passione per la tecnologia e la creatività che mi ha portato a trasformare mio padre fotografo in un professionista. Mi occupo principalmente di riprese aeree con droni, creazione contenuti visivi e di impatto per vari setttori, dai video promozionali agli eventi, fino ai documentari e progetti vari.",
-    "description": "Altre piloti droni professionisti, realizzo anche droni autocostruiti, personalizzati per riprese specifiche con camere, come videomaker e editor, trasformo immagini grezze in video di alta qualità. Con ognni dettaglio post-produzione per garantire un risultato di alta qualità. Rispondo con competenza e creatività a professionisti che necessitano di riprese aeree per eventi, video documentari e progetti.",
+    "intro": "Ciao! Sono Andrea, in arte Mindalist,  e sono un dronista, videomaker e video editor toscano. La mia passione per l'immagine e il movimento mi ha portato a trasformare il mio interesse per la tecnologia e la creatività in una professione. Mi occupo di riprese aeree con droni, creando contenuti visivi unici e d'impatto per vari settori, dai video promozionali agli eventi, fino ai documentari e ai progetti cinematografici.",
+    "description": "Oltre a pilotare droni professionali, realizzo anche droni autocostruiti, personalizzati per riprese specifiche e dinamiche.  Come videomaker e video editor, trasformo le immagini in racconti coinvolgenti, curando ogni dettaglio della post-produzione per garantire un risultato di alta qualità.",
     "whyChoose": "Perché scegliere me:",
     "creativity": "Creatività e tecnica:",
     "creativityDesc": "Unisco una visione artistica alla padronanza della tecnologia per creare contenuti straordinari.",
@@ -152,7 +152,7 @@
     "section12Text": "I presenti Termini sono regolati dalla legge italiana e, in particolare, dal Regolamento UE 2016/679 (GDPR).",
     "contactTitle": "Contatti per privacy e termini:",
     "emailPrivacy": "Email privacy:",
-    "privacyEmail": "manfro.andrea@gmail.com"
+    "privacyEmail": "info@mindalist.it"
   },
   "consent": {
     "title": "Privacy e cookie",
@@ -161,6 +161,9 @@
     "cookiesNote": "e l'uso dei cookie come descritto nella stessa.",
     "accept": "Accetta tutto",
     "acceptShort": "Accetta"
+  },
+  "backToTop": {
+    "label": "Torna in cima"
   },
   "notfound": {
     "title": "Pagina non trovata",

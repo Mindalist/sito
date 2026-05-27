@@ -31,8 +31,8 @@
   },
   "about": {
     "title": "ABOUT ME",
-    "intro": "Hi! I'm Andrea, also known as Mindalist, I'm a Tuscan drone videomaker and editor. Andrea, also known as Mindalist, I'm a professional drone videomaker and editor with a passion for technology and creativity that led me to transform my photographer father into a professional. I mainly deal with aerial filming with drones, creating visual and impactful content for various sectors, from promotional videos to events, up to documentaries and various projects.",
-    "description": "Like other professional drone pilots, I also build custom drones, personalized for specific filming with cameras. As a videomaker and editor, I transform raw images into high-quality videos. With every post-production detail to guarantee a high-quality result. I respond with competence and creativity to professionals who need aerial filming for events, documentary videos and projects.",
+    "intro": "Hi! I'm Andrea, aka Mindalist, a drone pilot, videographer, and video editor based in Tuscany. My passion for imagery and motion led me to turn my interest in technology and creativity into a profession. I specialize in aerial filming, creating unique, high-impact visual content for various industries—ranging from promotional videos and events to documentaries and film projects.",
+    "description": "In addition to flying professional drones, I also build custom-made drones, tailored for specific and dynamic shoots. As a videographer and video editor, I transform footage into engaging stories, taking care of every post-production detail to ensure a high-quality result",
     "whyChoose": "Why choose me:",
     "creativity": "Creativity and technique:",
     "creativityDesc": "I combine an artistic vision with mastery of technology to create extraordinary content.",
@@ -152,7 +152,7 @@
     "section12Text": "These Terms are governed by Italian law and, in particular, by EU Regulation 2016/679 (GDPR).",
     "contactTitle": "Contacts for privacy and terms:",
     "emailPrivacy": "Privacy email:",
-    "privacyEmail": "manfro.andrea@gmail.com"
+    "privacyEmail": "info@mindalist.it"
   },
   "consent": {
     "title": "Privacy & cookies",
@@ -161,6 +161,9 @@
     "cookiesNote": "and the use of cookies as described therein.",
     "accept": "Accept all",
     "acceptShort": "Accept"
+  },
+  "backToTop": {
+    "label": "Back to top"
   },
   "notfound": {
     "title": "Page not found",

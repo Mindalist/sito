@@ -1,0 +1,12 @@
+node_modules
+dist
+.git
+.gitignore
+Dockerfile
+docker-compose.yaml
+README.md
+*.log
+.vscode
+.idea
+nginx/certs
+nginx/www
